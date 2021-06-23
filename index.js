@@ -87,7 +87,7 @@ blocked = []
 fake = '- TURBO NTR -'
 fakeimage = fs.readFileSync(`./media/TurboNtr.jpeg`)
 numbernye = '0'
-join = '\`\`\`HOLA 👋🏻, Bienvenido al grupo 🥳🎊 Espero que se sienta como en casa ☕\n Soy Turbo 😎 el bot del Grupo, espero ser de tu agrado 👉🏻👈🏻 lee las reglas por favor para evitar malos entendidos 💣🚀 Te suscribes a mi cabal ? https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A\n - [ TURBO⚡NTR ] -'
+join = '\`\`\`HOLA 👋🏻, Bienvenido al grupo 🥳🎊 Espero que se sienta como en casa ☕\n Soy Turbo 😎 el bot del Grupo, espero ser de tu agrado 👉🏻👈🏻 lee las reglas por favor para evitar malos entendidos 💣🚀\n - [ TURBO⚡NTR ] -'
 leave = '\`\`\`Adios 🙋🏻‍♂️ estaremos mejor sin ti 😹 no vuelvas por favor 😝~ \`\`\`'
 promote = '*Eres el nuevo Admin 😎💖*'
 demote = '*Ya no eres Admin 😔~*'
@@ -566,7 +566,7 @@ const uploadImages = (buffData, type) => {
 			
 			     case 'menu':
                     wew = fs.readFileSync(`./media/TurboNtr.jpeg`)
-                    lzain = `┌「 𝚃𝚄𝚁𝙱𝙾⚡𝙽𝚃𝚁❤️𝙰𝚗𝚍𝚛𝚎𝚊  」」
+                    lzain = `┌「 𝚃𝚄𝚁𝙱𝙾 𝙽𝚃𝚁 𝙰𝚗𝚍𝚛𝚎𝚊  」」
       
       
       「𝐍𝐮𝐞𝐯𝐚𝐬 𝐚𝐝𝐢𝐜𝐢𝐨𝐧𝐞𝐬」

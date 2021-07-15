@@ -87,9 +87,9 @@ blocked = []
 fake = '- TURBO NTR -'
 fakeimage = fs.readFileSync(`./media/TurboNtr.jpeg`)
 numbernye = '0'
-join = '\`\`\`HOLA 👋🏻, Bienvenido al grupo 🥳🎊 Espero que se sienta como en casa ☕\n Soy Turbo 😎 el bot del Grupo, espero ser de tu agrado 👉🏻👈🏻 lee las reglas por favor para evitar malos entendidos 💣🚀\n - [ TURBO⚡NTR ] -'
-leave = '\`\`\`Adios 🙋🏻‍♂️ estaremos mejor sin ti 😹 no vuelvas por favor 😝~ \`\`\`'
-promote = '*Eres el nuevo Admin 😎💖*'
+join = '\`\`\`HOLA 👋🏻, Bienvenido al grupo 🥳🎊 Espero que se sienta como en casa ☕\n Soy Turbo 😎 el bot del Grupo, espero ser de tu agrado 👉🏻👈🏻 lee las reglas por favor para evitar malos entendidos 💣🚀 Te suscribes a mi cabal ? https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A\n - [ TURBO⚡NTR ] -'
+leave = '\`\`\`Adios 🙋🏻‍♂️ estaremos mejor sin ti 😹 no vuelvas por favor 😝 🐈💨~ \`\`\`'
+promote = '*Eres el nuevo Admin 😎💖 Se un ejemplo 🌟*'
 demote = '*Ya no eres Admin 😔~*'
 public = false
 
@@ -98,7 +98,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:𝚃𝚄𝚁𝙱𝙾 𝙽𝚃𝚁シ︎\n'
             + 'ORG:Owner Turbontr;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=50374965523:+503 7496 5523\n'
+            + 'TEL;type=CELL;type=VOICE;waid=12244253896:+1 (224) 425-3896\n'
             + 'END:VCARD'
             
 //*********** 𝗔𝗣𝗜𝗞𝗘𝗬 ***********//
@@ -149,7 +149,7 @@ async function starts() {
 
 	fs.existsSync('./TurboNtr.json') && TurboNtr.loadAuthInfo('./TurboNtr.json')
 	TurboNtr.on('connecting', () => {
-		start('2', 'Soy un poco lento, espera T-T...')
+		start('2', 'Soy un poco lento, espera, si te gusta bueno, si no me da igual T-T...')
 	})
 	TurboNtr.on('open', () => {
 		success('2', 'Conectado!!!👌..')
@@ -214,7 +214,7 @@ ${promote}`
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
 			let buff = await getBuffer(ppimg)
-			teks = `𝘿𝙀𝙈𝙊𝙏𝙀 𝘿𝙀𝙏𝙀𝘾𝙏
+			teks = `𝘿𝙀??𝙊??𝙀 𝘿𝙀𝙏𝙀𝘾𝙏
 			
 \`\`\`Numero :\`\`\` ${num.replace('@s.whatsapp.net', '')}
 
@@ -276,7 +276,7 @@ TurboNtr.on('CB:action,,call', async json => {
 			
 
 			mess = {
-				wait: ' Soy lento, espera T-T ',
+				wait: ' Soy un poco lento, espera, si te gusta bueno si no me da igual T-T ',
 				success: '✔️ Listooo ✔️',
 				error: {
 					stick: '❌ Falló, se produjo un error al convertir la imagen en una pegatina ❌',
@@ -439,7 +439,7 @@ key: {
 					"description": "TURBO NTR",
 					"currencyCode": "USD",
 					"priceAmount1000": "2000",
-					"retailerId": "Satancito",
+					"retailerId": "Turbocito",
 					"productImageCount": 1
 				},
 				"businessOwnerJid": `0@s.whatsapp.net`
@@ -498,7 +498,7 @@ const uploadImages = (buffData, type) => {
     if (!mek.key.fromMe) return
   }
             if(budy.match('Turbo')){
-  result = fs.readFileSync(`./sticker/satan.webp`)
+  result = fs.readFileSync(`./sticker/Turbo.webp`)
 	TurboNtr.sendMessage(from, result, sticker, {
   quoted: mek
 	})
@@ -566,7 +566,7 @@ const uploadImages = (buffData, type) => {
 			
 			     case 'menu':
                     wew = fs.readFileSync(`./media/TurboNtr.jpeg`)
-                    lzain = `┌「 𝚃𝚄𝚁𝙱𝙾 𝙽𝚃𝚁 𝙰𝚗𝚍𝚛𝚎𝚊  」」
+                    lzain = `┌「 𝚃𝚄𝚁𝙱𝙾⚡𝙽𝚃𝚁❤️𝙰𝚗𝚍𝚛𝚎𝚊  」」
       
       
       「𝐍𝐮𝐞𝐯𝐚𝐬 𝐚𝐝𝐢𝐜𝐢𝐨𝐧𝐞𝐬」
@@ -625,7 +625,6 @@ const uploadImages = (buffData, type) => {
 ➤⌔ _nsfwfeets_     
 ➤⌔ _blowjob_
 ➤⌔ _boobs_
-➤⌔ _les_
 ➤⌔ _futanari_
 ➤⌔ _femdom_ 
 ➤⌔ _oppai_
@@ -1297,7 +1296,7 @@ break
 					
 					
 case 'attp':
-				if (args.length < 1) return reply(`_Y el texto? Ù.ú_\n*ejemplo ${prefix}attp satan Ganteng*`)
+				if (args.length < 1) return reply(`_Y el texto? Ù.ú_\n*ejemplo ${prefix}attp Turbo Ganteng*`)
 				attp2 = await getBuffer(`https://api.xteam.xyz/attp?file&text=${body.slice(6)}`)
 				TurboNtr.sendMessage(from, attp2, sticker, {quoted: freply})
 				break
@@ -1482,7 +1481,7 @@ const latensip = speed() - timestampi
   uptime = process.uptime()
   teks = `*‣ Nombre del bot* : ${me.name}
   ‣ *Número del bot* : @${me.jid.split('@')[0]}
-  ‣ *Dueño* : Satanics
+  ‣ *Dueño* : Turboics
   ‣ *Prefijo* : ${prefix}
   ‣ *Usuarios bloqueados* : ${blocked.length}
   ‣ *Tiempo activo* : ${kyun(uptime)}
@@ -1614,7 +1613,7 @@ case prefix+ 'wallpaperanime':
 case  'loli':
 		  anu = await axios.get('https://nekos.life/api/v2/img/neko')
 				loliz = await getBuffer(anu.data.url)
-				SatanicaXB.sendMessage(from, loliz, image, {quoted: mek})
+				TurboicaXB.sendMessage(from, loliz, image, {quoted: mek})
 			break
 case  'femdom':
       anu = await axios.get('https://nekos.life/api/v2/img/femdom')
@@ -1628,18 +1627,6 @@ case  'futanari':
 			futan = await axios.get('https://nekos.life/api/v2/img/futanari')
 			futanz = await getBuffer(futan.data.url)
 			TurboNtr.sendMessage(from, futanz, image, { quoted: mek })
-			break
-case  'les':
-      ranp = getRandom('.gif')
-      rano = getRandom('.webp')
-			anu = await axios.get('https://nekos.life/api/v2/img/les')
-			exec(`wget ${anu.data.url} -O ${ranp} && ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=15 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${rano}`, (err) => {
-			  fs.unlinkSync(ranp)
-				if (err) return reply('error')
-				buffer = fs.readFileSync(rano)
-				TurboNtr.sendMessage(from, buffer, MessageType.sticker, {quoted: mek})
-				fs.unlinkSync(rano)
-			})
 			break
 case  'trap':
 			trapx = await axios.get('https://nekos.life/api/v2/img/tits')
@@ -1677,14 +1664,6 @@ case  'blowjob':
 			blowz = await axios.get('https://nekos.life/api/v2/img/blowjob')
 			bufblowz = await getBuffer(blowz.data.url)
 			TurboNtr.sendMessage(from, bufblowz, image, {quoted: mek})
-			.catch(err => {
-			return('Error 7-7.')
-			})
-			break
-	case  'hentai':
-			hentaiz = await axios.get('https://nekos.life/api/v2/img/hentai')
-			bufhtz = await getBuffer(hentaiz.data.url)
-			TurboNtr.sendMessage(from, bufhtz, image, {quoted: mek})
 			.catch(err => {
 			return('Error 7-7.')
 			})
@@ -2377,7 +2356,7 @@ ini_link = args[0]
 				  if (args.length < 1) return reply('*Url?*')
                     ini_link = args[0]
                     anu = await fetchJson(`https://api.xteam.xyz/dl/ytmp3?url=${ini_link}&APIKEY=${XteamKey}`)
-                    					ytt = `「 *YOUTUBE MP3 BY SATAN* 」
+                    					ytt = `「 *YOUTUBE MP3 BY Turbo* 」
 					
 *Titulo:* ${anu.judul}
 *Size:* ${anu.size}
